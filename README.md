@@ -21,8 +21,11 @@ sensor.attach(18, 4, 2, 400);
 }
 
 void loop() {
+
 distancia = sensor.getDistanceCM();
+
 Serial.print(distancia);
+
 Serial.println(" CM");
 
 delay(1000);
