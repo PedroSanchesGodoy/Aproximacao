@@ -37,5 +37,7 @@ delay(1000);
 
 Fios:
 Fio marrom nos 5 Volts
+
 Fio Vermelho e fio cinza nas portas digitais
+
 Fio laranja no Ground
