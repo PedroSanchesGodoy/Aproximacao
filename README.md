@@ -3,16 +3,21 @@
 ## Código
 
 #include <EasyUltrasonic.h>
-// Se a distancia for entre 2 e 10, vermelho, se for + que 11, verde
+
+
 EasyUltrasonic sensor;
+
 
 float distancia = 0;
 
 
 
 void setup() {
+
 Serial.begin(9600);
+
 sensor.attach(18, 4, 2, 400);
+
 }
 
 void loop() {
